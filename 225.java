@@ -23,4 +23,13 @@ class MyStack {
     public boolean empty() {
         return queue.isEmpty();
     }
+    //use a single queue
+    //whenver we push a new element at the end of the queue
+    //all the other elements should be accessible in the reverse order
+    //stack configuration after push(c): c b a
+    //queue configuration before push(c): b a
+    //after push(c) : b a c
+    //so remove b and add it at the end
+    // remove a and add it at the end
+    //queue config: c b a
 }
