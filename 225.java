@@ -27,6 +27,7 @@ class MyStack {
     //whenver we push a new element at the end of the queue
     //all the other elements should be accessible in the reverse order
     //stack configuration after push(c): c b a
+    //we need to have the queue config same as that of stack as that of stack
     //queue configuration before push(c): b a
     //after push(c) : b a c
     //so remove b and add it at the end
